@@ -1,21 +1,58 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react'
+import { graphql, Link } from 'gatsby'
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Layout from '../components/layout'
+import SEO from '../components/seo'
+import Section from '../components/section'
+import Pills from '../components/pills'
+import MainBio from '../components/main-bio'
+import { formatPostDate, formatReadingTime } from '../utils/dates'
 
-const IndexPage = () => (
+import './blog-listing.css'
+
+const BlogIndexPage = ({ data: { allMdx } }) => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <SEO />
+    <Section centered name="main-bio">
+      <MainBio />
+    </Section>
+
+    {allMdx.nodes.map(post => (
+      <Section key={post.fields.slug} name={post.fields.slug} centered>
+        <Link to={post.fields.slug} className="blog-listing">
+          <h1>{post.frontmatter.title}</h1>
+          <p>
+            {formatPostDate(post.frontmatter.date)}
+            {` • ${formatReadingTime(post.timeToRead)}`}
+          </p>
+          <Pills items={post.frontmatter.categories} />
+          <p>{post.frontmatter.description}</p>
+        </Link>
+      </Section>
+    ))}
   </Layout>
 )
 
-export default IndexPage
+export default BlogIndexPage
+
+export const query = graphql`
+  query BlogIndex {
+    allMdx(
+      filter: { fields: { published: { eq: true } } }
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
+      nodes {
+        fields {
+          slug
+        }
+        timeToRead
+        frontmatter {
+          title
+          description
+          categories
+          date(formatString: "MMMM DD, YYYY")
+        }
+      }
+    }
+  }
+`
