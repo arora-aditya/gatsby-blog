@@ -1,8 +1,8 @@
 const config = require('./config')
 
 module.exports = {
-  pathPrefix: "/gatsby-blog",
   siteMetadata: config,
+  pathPrefix: '/',
   plugins: [
     'gatsby-plugin-react-helmet',
     {
@@ -14,9 +14,8 @@ module.exports = {
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 400,
-              backgroundColor: 'none',
+              backgroundColor: 'transparent',
               showCaptions: true,
-              linkImagesToOriginal: false
             },
           },
           'gatsby-remark-copy-linked-files',
