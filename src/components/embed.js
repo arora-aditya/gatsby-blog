@@ -25,6 +25,7 @@ function Embed({ aspectRatio, src, caption }) {
     doc.open()
     doc.writeln(iframeHtml)
     doc.close()
+    // eslint-disable-next-line
   }, [iframeRef])
 
   if (src && src.match(/^https:\/\/gist.github.com/)) {
