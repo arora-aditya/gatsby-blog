@@ -22,7 +22,7 @@ The sheer realization that I have graduated from the ranks of teens with raging 
 
 My realization about my own emotional instability stems from the rollercoaster of a year that I have had, truly incomplete without the honorable mention of fights with friends, fights with family, re-bonding with friends and family and just the pure emotion of content and discontent at the same time. All of this, while frequently getting severely sick, throughout the year, even when I was at home with my parents in August.
 
- In the entire grind of high-school in preparation of one exam, I feel as though, a part of my personality just got lost, that died out. <!--Another side, I feel died out when my heart was hurt, and friends betrayed late last year-->. Another part died out, when I could not convert the one company that I have been eyeing out since 7th grade sometime in July. Lastly, another part died out very recently, when I was snatched of the one thing I held very dear, my academic success in a term. 
+ In the entire grind of high-school in preparation of one exam, I feel as though, a part of my personality just got lost, that died out. <!--Another side, I feel died out when my heart was hurt, and friends betrayed late last year. -->Another part died out, when I could not convert the one company that I have been eyeing out since 7th grade sometime in July. Lastly, another part died out very recently, when I was snatched of the one thing I held very dear, my academic success in a term. 
 
 ![screenshot of me bawling with happy tears, when I got through the very first round of what would be a very long process, that would eventually lead to me not getting the job](./images/happy-tears.jpg)
 
