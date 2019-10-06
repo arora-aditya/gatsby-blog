@@ -27,7 +27,7 @@
   Cache-Control: public, max-age=31536000, immutable
 /sw.js
   Cache-Control: no-cache
-/bet320-reflection/
+/business-elective/
   Link: </webpack-runtime-6deb850ef20c79019664.js>; rel=preload; as=script
   Link: </styles-5b06b63f92a0c43483b7.js>; rel=preload; as=script
   Link: </app-d6f3f1600ea73d6f2afa.js>; rel=preload; as=script
