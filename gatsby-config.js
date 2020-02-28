@@ -13,7 +13,7 @@ module.exports = {
           {
             resolve: 'gatsby-remark-images',
             options: {
-              maxWidth: 400,
+              maxWidth: 500,
               backgroundColor: 'transparent',
               showCaptions: true,
             },
@@ -119,6 +119,26 @@ module.exports = {
             }
           `,
             output: `rss.xml`,
+          },
+        ],
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: "gatsby-remark-custom-blocks",
+            options: {
+              blocks: {
+                table_desktop: {
+                  classes: "table_desktop",
+                },
+                table_mobile: {
+                  classes: "table_mobile",
+                },
+              },
+            },
           },
         ],
       },

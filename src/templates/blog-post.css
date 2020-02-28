@@ -15,7 +15,7 @@
 }
 
 .blog header p {
-  font-size: 0.75em;
+  font-size: 0.9em;
 }
 
 .blog footer {
@@ -31,3 +31,30 @@
 .blog footer small a {
   font-size: 17px;
 }
+
+table {
+  align: center;
+  width: 100% !important;
+  display: inline-table;
+}
+
+table img {
+  height: 100%;
+}
+
+/* Special CSS for Advent of Code Image Tables */
+.hide-on-desktop {
+  display: none;
+}
+@media (max-width: 767px) {
+  .hide-on-mobile {
+    display: none;
+  }
+  .hide-on-desktop {
+    display: inline-table;
+    width: 100%;
+  }
+}
+
+
+ 

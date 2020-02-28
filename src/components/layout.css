@@ -81,7 +81,8 @@ h5 {
 p,
 i,
 a,
-li {
+li,
+td {
   margin-top: 1rem;
   font-size: calc(10px + 1vh);
   letter-spacing: -0.03px;

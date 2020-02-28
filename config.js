@@ -9,7 +9,7 @@ module.exports = {
   // a longer bio showing on the landing page of the blog
   bio: `Computer Engineering student at the University of Waterloo`,
   author: 'Aditya Arora',
-  githubUrl: 'https://github.com/arora-aditya',
+  githubUrl: 'https://github.com/arora-aditya/gatsby-blog',
   // replace this by the url where your website will be published
   siteUrl: 'https://blogs.arora-aditya.com',
   social: {

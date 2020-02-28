@@ -34,7 +34,7 @@ function SEO({
   const { site, avatar } = useStaticQuery(
     graphql`
       query {
-        avatar: file(absolutePath: { regex: "/avatar.png/" }) {
+        avatar: file(absolutePath: { regex: "/avatar.jpeg/" }) {
           childImageSharp {
             fixed(width: 150, height: 150, quality: 90) {
               src
