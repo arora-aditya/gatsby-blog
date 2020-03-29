@@ -20,5 +20,6 @@ module.exports = {
     github: 'arora-aditya',
     linkedin: 'arora-aditya',
     instagram: 'onezillionbucks',
+    website: 'arora-aditya.com'
   },
 }
