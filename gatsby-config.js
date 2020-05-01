@@ -118,6 +118,7 @@ module.exports = {
               }
             }
           `,
+            title: `Aditya Arora's blog feed`,
             output: `rss.xml`,
           },
         ],
