@@ -61,7 +61,7 @@ export default function PageTemplate({ data: { mdx, site }, pageContext }) {
               rel="nofollow noopener noreferrer"
               href={`${site.siteMetadata.githubUrl}/edit/master/content${mdx.fields.slug}index.md`}
             >
-              Edit this post on GitHub
+              Suggest changes on Github
             </a>
           </small>
           <hr

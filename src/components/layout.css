@@ -28,6 +28,12 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+hr {
+  margin: 3.75rem 0;
+  width: 100%;
+  border: 1px solid #f2f2f2;
+}
+
 h1,
 h2,
 p,
@@ -82,9 +88,9 @@ a,
 li,
 td {
   margin-top: 1rem;
-  font-size: calc(10px + 1vh);
+  font-size: 1.7rem;
   letter-spacing: -0.03px;
-  line-height: 1.58;
+  line-height: 1.52;
 }
 
 a {
