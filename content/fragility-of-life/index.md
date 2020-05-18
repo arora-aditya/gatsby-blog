@@ -31,5 +31,5 @@ Lastly, if you ever think you wronged me, consider yourself forgiven. Life is to
 
 To all the people I have ever crossed paths with, if there's ever anything I can do to make life a little bit easier for you, please do reach out. 
 
-Life is too short to miss out those small moments, and to not tell the ones we care about that we do in fact appreciate and care about them despite the ups and downs of live.
+Life is too short to miss out those small moments, and to not tell the ones we care about that we do in fact appreciate and care about them despite the ups and downs of life.
 
