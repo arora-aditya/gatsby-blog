@@ -10,7 +10,7 @@ import { formatPostDate, formatReadingTime } from '../utils/dates'
 
 import './blog-listing.css'
 
-const BlogIndexPage = ({ data: { allMdx } }) => (
+const BooksIndexPage = ({ data: { allMdx } }) => (
   <Layout>
     <SEO />
     <Section centered name="main-bio">
@@ -33,10 +33,10 @@ const BlogIndexPage = ({ data: { allMdx } }) => (
   </Layout>
 )
 
-export default BlogIndexPage
+export default BooksIndexPage
 
 export const query = graphql`
-  query BlogIndex {
+  query BooksIndex {
     allMdx(
       filter: { 
         fields: { 
@@ -45,7 +45,7 @@ export const query = graphql`
           }
         },
       frontmatter: {
-        categories: {nin: ["Books"]}
+        categories: {in: ["Books"]}
       } 
       }
       sort: { fields: [frontmatter___date], order: DESC }

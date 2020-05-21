@@ -10,15 +10,18 @@ function cssSafe(str) {
 const Pills = ({ items }) => {
   return (
     <div className="pills">
-      {(items || []).map(item => (
-        <span
+      {(items || []).map(item => {
+        if(item === "Books"){
+          return <></>
+        }
+        return (<span
           className={`pill pill--${cssSafe(item)}`}
           key={item}
           style={{ marginRight: 10 }}
         >
           {capitalize(item)}
-        </span>
-      ))}
+        </span>)
+      })}
     </div>
   )
 }

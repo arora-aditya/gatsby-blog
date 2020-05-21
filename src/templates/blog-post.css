@@ -1,8 +1,24 @@
-.blog h1 a {
+.blog h1 .back {
   text-decoration: none;
   font-size: calc(30px + 1vh);
   color: lavender;
   margin-left: -30px;
+}
+
+.link-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.link-button:hover,
+.link-button:focus {
+  text-decoration: none;
+  outline: none;
 }
 
 .blog h3 {

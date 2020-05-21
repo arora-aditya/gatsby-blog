@@ -49,7 +49,6 @@
     "gh-pages": "^2.1.1",
     "lighthousebot": "git+https://github.com/GoogleChromeLabs/lighthousebot.git",
     "lint-staged": "^9.2.1",
-    "pre-commit": "^1.2.2",
     "prettier": "^1.17.0",
     "wait-for-netlify-preview": "^1.2.1"
   },

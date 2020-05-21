@@ -88,14 +88,22 @@ module.exports = {
                   ...edge.node.frontmatter,
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
-                  custom_elements: [{ 'content:encoded': edge.node.html }],
                 }
               })
             },
             query: `
             {
               allMdx(
-                filter: { fields: { published: { eq: true } } }
+                filter: { 
+                  fields: { 
+                    published: { 
+                      eq: true 
+                    },
+                  },
+                  frontmatter: {
+                    categories: {nin: ["Books"]}
+                  } 
+                }
                 limit: 1000,
                 sort: {
                   order: DESC,
@@ -112,7 +120,6 @@ module.exports = {
                     fields {
                       slug
                     }
-                    html
                   }
                 }
               }
@@ -120,6 +127,56 @@ module.exports = {
           `,
             title: `Aditya Arora's blog feed`,
             output: `rss.xml`,
+          },
+          {
+            serialize: ({ query: { site, allMdx } }) => {
+              return allMdx.edges.map(edge => {
+                return {
+                  ...edge.node.frontmatter,
+                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  custom_elements: [{ 'content:encoded': edge.node.html }],
+                }
+              })
+            },
+            query: `
+            {
+              allMdx(
+                filter: { 
+                  fields: { 
+                    published: { 
+                      eq: true 
+                    },
+                  },
+                  frontmatter: {
+                    categories: {in: ["Books"]}
+                  }
+                }
+                limit: 1000,
+                sort: {
+                  order: DESC,
+                  fields: [frontmatter___date]
+                }
+              ) {
+                edges {
+                  node {
+                    frontmatter {
+                      title
+                      description
+                      date
+                      author
+                    }
+                    fields {
+                      slug
+                    }
+                  }
+                }
+              }
+            }
+          `,
+            match: "^/books/",
+            title: `Aditya Arora's book blog feed`,
+            output: `book-rss.xml`,
           },
         ],
       },

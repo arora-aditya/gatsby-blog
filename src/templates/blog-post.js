@@ -12,7 +12,6 @@ import './blog-post.css'
 
 export default function PageTemplate({ data: { mdx, site }, pageContext }) {
   const { previous, next, permalink } = pageContext
-
   return (
     <div>
       <SEO
@@ -35,7 +34,7 @@ export default function PageTemplate({ data: { mdx, site }, pageContext }) {
         <article className="container small">
           <header>
             <h1>
-              <Link to="/">«</Link> {mdx.frontmatter.title}
+              <button className="link-button back" onClick={() => window.history.back()}>«</button> {mdx.frontmatter.title}
             </h1>
             <p>
               {formatPostDate(mdx.frontmatter.date)}
