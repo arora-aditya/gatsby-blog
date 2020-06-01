@@ -7,7 +7,6 @@ upcoming: "true"
 categories:
   - Books
   - Non-fiction
-  - Science
 description: "Rich Dad Poor Dad is a 1997 book written by Robert Kiyosaki and Sharon Lechter. It advocates the importance of financial literacy, financial independence and building wealth through investing in assets, real estate investing, starting and owning businesses, as well as increasing one's financial intelligenc to improve one's business and financial aptitude."
 ---
 
