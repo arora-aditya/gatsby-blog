@@ -31,6 +31,116 @@
   Cache-Control: public, max-age=31536000, immutable
 /sw.js
   Cache-Control: no-cache
+/books/1984/
+  Link: </webpack-runtime-fcfefdda8f8a6a72d918.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-8dcecaaefd71e2213eb2.js>; rel=preload; as=script
+  Link: </app-d67db538ab53faea2521.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </commons-e4f4f22319ce92a3f7f7.js>; rel=preload; as=script
+  Link: </98ef1ab8a123143711179bd1486fe6d0e507c16a-0de3987ae7f1ef929451.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-416d16984bac8df630f1.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/books/1984/page-data.json>; rel=preload; as=fetch; crossorigin
+/books/astrophysics-for-people-in-a-hurry/
+  Link: </webpack-runtime-fcfefdda8f8a6a72d918.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-8dcecaaefd71e2213eb2.js>; rel=preload; as=script
+  Link: </app-d67db538ab53faea2521.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </commons-e4f4f22319ce92a3f7f7.js>; rel=preload; as=script
+  Link: </98ef1ab8a123143711179bd1486fe6d0e507c16a-0de3987ae7f1ef929451.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-416d16984bac8df630f1.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/books/astrophysics-for-people-in-a-hurry/page-data.json>; rel=preload; as=fetch; crossorigin
+/books/hitchhikers-guide-to-the-galaxy/
+  Link: </webpack-runtime-fcfefdda8f8a6a72d918.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-8dcecaaefd71e2213eb2.js>; rel=preload; as=script
+  Link: </app-d67db538ab53faea2521.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </commons-e4f4f22319ce92a3f7f7.js>; rel=preload; as=script
+  Link: </98ef1ab8a123143711179bd1486fe6d0e507c16a-0de3987ae7f1ef929451.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-416d16984bac8df630f1.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/books/hitchhikers-guide-to-the-galaxy/page-data.json>; rel=preload; as=fetch; crossorigin
+/books/how-google-works/
+  Link: </webpack-runtime-fcfefdda8f8a6a72d918.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-8dcecaaefd71e2213eb2.js>; rel=preload; as=script
+  Link: </app-d67db538ab53faea2521.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </commons-e4f4f22319ce92a3f7f7.js>; rel=preload; as=script
+  Link: </98ef1ab8a123143711179bd1486fe6d0e507c16a-0de3987ae7f1ef929451.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-416d16984bac8df630f1.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/books/how-google-works/page-data.json>; rel=preload; as=fetch; crossorigin
+/books/outliers/
+  Link: </webpack-runtime-fcfefdda8f8a6a72d918.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-8dcecaaefd71e2213eb2.js>; rel=preload; as=script
+  Link: </app-d67db538ab53faea2521.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </commons-e4f4f22319ce92a3f7f7.js>; rel=preload; as=script
+  Link: </98ef1ab8a123143711179bd1486fe6d0e507c16a-0de3987ae7f1ef929451.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-416d16984bac8df630f1.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/books/outliers/page-data.json>; rel=preload; as=fetch; crossorigin
+/books/rich-dad-poor-dad/
+  Link: </webpack-runtime-fcfefdda8f8a6a72d918.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-8dcecaaefd71e2213eb2.js>; rel=preload; as=script
+  Link: </app-d67db538ab53faea2521.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </commons-e4f4f22319ce92a3f7f7.js>; rel=preload; as=script
+  Link: </98ef1ab8a123143711179bd1486fe6d0e507c16a-0de3987ae7f1ef929451.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-416d16984bac8df630f1.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/books/rich-dad-poor-dad/page-data.json>; rel=preload; as=fetch; crossorigin
+/books/steve-jobs/
+  Link: </webpack-runtime-fcfefdda8f8a6a72d918.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-8dcecaaefd71e2213eb2.js>; rel=preload; as=script
+  Link: </app-d67db538ab53faea2521.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </commons-e4f4f22319ce92a3f7f7.js>; rel=preload; as=script
+  Link: </98ef1ab8a123143711179bd1486fe6d0e507c16a-0de3987ae7f1ef929451.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-416d16984bac8df630f1.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/books/steve-jobs/page-data.json>; rel=preload; as=fetch; crossorigin
+/books/the-seven-habits-of-highly-effective-people/
+  Link: </webpack-runtime-fcfefdda8f8a6a72d918.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-8dcecaaefd71e2213eb2.js>; rel=preload; as=script
+  Link: </app-d67db538ab53faea2521.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </commons-e4f4f22319ce92a3f7f7.js>; rel=preload; as=script
+  Link: </98ef1ab8a123143711179bd1486fe6d0e507c16a-0de3987ae7f1ef929451.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-416d16984bac8df630f1.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/books/the-seven-habits-of-highly-effective-people/page-data.json>; rel=preload; as=fetch; crossorigin
+/books/tribe-of-mentors/
+  Link: </webpack-runtime-fcfefdda8f8a6a72d918.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-8dcecaaefd71e2213eb2.js>; rel=preload; as=script
+  Link: </app-d67db538ab53faea2521.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </commons-e4f4f22319ce92a3f7f7.js>; rel=preload; as=script
+  Link: </98ef1ab8a123143711179bd1486fe6d0e507c16a-0de3987ae7f1ef929451.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-416d16984bac8df630f1.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/books/tribe-of-mentors/page-data.json>; rel=preload; as=fetch; crossorigin
+/books/why-we-sleep/
+  Link: </webpack-runtime-fcfefdda8f8a6a72d918.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-8dcecaaefd71e2213eb2.js>; rel=preload; as=script
+  Link: </app-d67db538ab53faea2521.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </commons-e4f4f22319ce92a3f7f7.js>; rel=preload; as=script
+  Link: </98ef1ab8a123143711179bd1486fe6d0e507c16a-0de3987ae7f1ef929451.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-416d16984bac8df630f1.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/books/why-we-sleep/page-data.json>; rel=preload; as=fetch; crossorigin
 /fragility-of-life/
   Link: </webpack-runtime-fcfefdda8f8a6a72d918.js>; rel=preload; as=script
   Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
