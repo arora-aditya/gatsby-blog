@@ -3,7 +3,8 @@ title: "Headspace"
 author: "Andy Puddicombe "
 date: '2021-01-01T15:22:29.625Z'
 published: false
-currently_reading: "true"
+currently_reading: false
+upcoming: false
 categories:
   - Books
   - Non-Fiction

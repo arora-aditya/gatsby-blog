@@ -3,7 +3,7 @@ title: "Tribe of Mentors"
 author: "Tim Ferris"
 date: '2021-01-01T15:22:29.625Z'
 published: false
-upcoming: "true"
+upcoming: true
 categories:
   - Books
   - Non-fiction

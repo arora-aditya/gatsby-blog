@@ -17,19 +17,32 @@ const BooksIndexPage = ({ data: { allMdx } }) => (
       <MainBio />
     </Section>
 
-    {allMdx.nodes.map(post => (
-      <Section key={post.fields.slug} name={post.fields.slug} centered>
-        <Link to={post.fields.slug} className="blog-listing">
-          <h1>{post.frontmatter.title}</h1>
-          <p>
-            {formatPostDate(post.frontmatter.date)}
-            {` • ${formatReadingTime(post.timeToRead)}`}
-          </p>
-          <Pills items={post.frontmatter.categories} />
-          <p>{post.frontmatter.description}</p>
-        </Link>
-      </Section>
-    ))}
+    {allMdx.nodes.map(post => {
+      if(post.frontmatter.published === false){
+        return (
+          <Section key={post.fields.slug} name={post.fields.slug} centered>
+              <h1>{post.frontmatter.title}</h1>
+              <Pills items={post.frontmatter.categories.concat(["Review WIP"])} />
+              <p>{post.frontmatter.description}</p>
+          </Section>
+        )
+      } else {
+        return (
+          <Section key={post.fields.slug} name={post.fields.slug} centered>
+            <Link to={post.fields.slug} className="blog-listing">
+              <h1>{post.frontmatter.title}</h1>
+              <p>
+                {formatPostDate(post.frontmatter.date)}
+                {` • ${formatReadingTime(post.timeToRead)}`}
+              </p>
+              <Pills items={post.frontmatter.categories} />
+              <p>{post.frontmatter.description}</p>
+            </Link>
+          </Section>
+        )
+      }
+      
+    })}
   </Layout>
 )
 
@@ -39,14 +52,15 @@ export const query = graphql`
   query BooksIndex {
     allMdx(
       filter: { 
-        fields: { 
-          published: { 
-            eq: true 
+        frontmatter: {
+          categories: {in: ["Books"]},
+          upcoming: { 
+            in: [false, null] 
+          },
+          currently_reading: {
+            in: [false, null] 
           }
-        },
-      frontmatter: {
-        categories: {in: ["Books"]}
-      } 
+        } 
       }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
@@ -56,6 +70,9 @@ export const query = graphql`
         }
         timeToRead
         frontmatter {
+          upcoming
+          currently_reading
+          published
           title
           description
           categories

@@ -141,6 +141,9 @@ module.exports = {
                       "content:encoded": edge.node.html,
                     },
                     {
+                      "published": edge.node.frontmatter.published,
+                    },
+                    {
                       "currently_reading": edge.node.frontmatter.currently_reading,
                     },
                     {

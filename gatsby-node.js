@@ -16,6 +16,8 @@ exports.createSchemaCustomization = ({ actions }) => {
       canonical_link: String
       categories: [String]
       redirect_from: [String]
+      upcoming: Boolean
+      currently_reading: Boolean
     }
     type MdxFields {
       slug: String
@@ -40,6 +42,18 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       name: 'published',
       node,
       value: node.frontmatter.published,
+    })
+    
+    createNodeField({
+      name: 'upcoming',
+      node,
+      value: node.frontmatter.upcoming,
+    })
+    
+    createNodeField({
+      name: 'currently_reading',
+      node,
+      value: node.frontmatter.currently_reading,
     })
   }
 }
