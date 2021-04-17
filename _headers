@@ -31,6 +31,72 @@
   Cache-Control: public, max-age=31536000, immutable
 /sw.js
   Cache-Control: no-cache
+/books/cbt-made-simple/
+  Link: </webpack-runtime-39bc313e3fea3f44c169.js>; rel=preload; as=script
+  Link: </styles-c2fe8482057191dca484.js>; rel=preload; as=script
+  Link: </framework-b5b229d58c3c710d5429.js>; rel=preload; as=script
+  Link: </app-e92fca008d126f5cc869.js>; rel=preload; as=script
+  Link: </styles-c2fe8482057191dca484.js>; rel=preload; as=script
+  Link: </commons-434a5736aba3cef89ca5.js>; rel=preload; as=script
+  Link: </98ef1ab8a123143711179bd1486fe6d0e507c16a-55333cdfc7784011b650.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-c1dc6d2ed5a4043386bf.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/books/cbt-made-simple/page-data.json>; rel=preload; as=fetch; crossorigin
+/books/a-promised-land/
+  Link: </webpack-runtime-39bc313e3fea3f44c169.js>; rel=preload; as=script
+  Link: </styles-c2fe8482057191dca484.js>; rel=preload; as=script
+  Link: </framework-b5b229d58c3c710d5429.js>; rel=preload; as=script
+  Link: </app-e92fca008d126f5cc869.js>; rel=preload; as=script
+  Link: </styles-c2fe8482057191dca484.js>; rel=preload; as=script
+  Link: </commons-434a5736aba3cef89ca5.js>; rel=preload; as=script
+  Link: </98ef1ab8a123143711179bd1486fe6d0e507c16a-55333cdfc7784011b650.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-c1dc6d2ed5a4043386bf.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/books/a-promised-land/page-data.json>; rel=preload; as=fetch; crossorigin
+/books/dune/
+  Link: </webpack-runtime-39bc313e3fea3f44c169.js>; rel=preload; as=script
+  Link: </styles-c2fe8482057191dca484.js>; rel=preload; as=script
+  Link: </framework-b5b229d58c3c710d5429.js>; rel=preload; as=script
+  Link: </app-e92fca008d126f5cc869.js>; rel=preload; as=script
+  Link: </styles-c2fe8482057191dca484.js>; rel=preload; as=script
+  Link: </commons-434a5736aba3cef89ca5.js>; rel=preload; as=script
+  Link: </98ef1ab8a123143711179bd1486fe6d0e507c16a-55333cdfc7784011b650.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-c1dc6d2ed5a4043386bf.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/books/dune/page-data.json>; rel=preload; as=fetch; crossorigin
+/books/maybe-you-should-talk-to-someone/
+  Link: </webpack-runtime-39bc313e3fea3f44c169.js>; rel=preload; as=script
+  Link: </styles-c2fe8482057191dca484.js>; rel=preload; as=script
+  Link: </framework-b5b229d58c3c710d5429.js>; rel=preload; as=script
+  Link: </app-e92fca008d126f5cc869.js>; rel=preload; as=script
+  Link: </styles-c2fe8482057191dca484.js>; rel=preload; as=script
+  Link: </commons-434a5736aba3cef89ca5.js>; rel=preload; as=script
+  Link: </98ef1ab8a123143711179bd1486fe6d0e507c16a-55333cdfc7784011b650.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-c1dc6d2ed5a4043386bf.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/books/maybe-you-should-talk-to-someone/page-data.json>; rel=preload; as=fetch; crossorigin
+/books/when/
+  Link: </webpack-runtime-39bc313e3fea3f44c169.js>; rel=preload; as=script
+  Link: </styles-c2fe8482057191dca484.js>; rel=preload; as=script
+  Link: </framework-b5b229d58c3c710d5429.js>; rel=preload; as=script
+  Link: </app-e92fca008d126f5cc869.js>; rel=preload; as=script
+  Link: </styles-c2fe8482057191dca484.js>; rel=preload; as=script
+  Link: </commons-434a5736aba3cef89ca5.js>; rel=preload; as=script
+  Link: </98ef1ab8a123143711179bd1486fe6d0e507c16a-55333cdfc7784011b650.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-c1dc6d2ed5a4043386bf.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/books/when/page-data.json>; rel=preload; as=fetch; crossorigin
+/books/range/
+  Link: </webpack-runtime-39bc313e3fea3f44c169.js>; rel=preload; as=script
+  Link: </styles-c2fe8482057191dca484.js>; rel=preload; as=script
+  Link: </framework-b5b229d58c3c710d5429.js>; rel=preload; as=script
+  Link: </app-e92fca008d126f5cc869.js>; rel=preload; as=script
+  Link: </styles-c2fe8482057191dca484.js>; rel=preload; as=script
+  Link: </commons-434a5736aba3cef89ca5.js>; rel=preload; as=script
+  Link: </98ef1ab8a123143711179bd1486fe6d0e507c16a-55333cdfc7784011b650.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-c1dc6d2ed5a4043386bf.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/books/range/page-data.json>; rel=preload; as=fetch; crossorigin
 /books/1984/
   Link: </webpack-runtime-39bc313e3fea3f44c169.js>; rel=preload; as=script
   Link: </styles-c2fe8482057191dca484.js>; rel=preload; as=script
