@@ -113,12 +113,21 @@ exports.createPages = ({ graphql, actions, reporter, pathPrefix }) => {
 
       const pagePath = `${pathPrefix}${node.fields.slug}`
       const permalink = `${result.data.site.siteMetadata.siteUrl}${node.fields.slug}`
-
-      createPage({
-        path: pagePath,
-        component: path.resolve(`./src/templates/blog-post.js`),
-        context: { id: node.id, previous, next, permalink },
-      })
+      
+      if(node.fields.slug == "/chess/"){
+        createPage({
+          path: pagePath,
+          component: path.resolve(`./src/templates/chess.js`),
+          context: { id: node.id, previous, next, permalink },
+        })
+      } else {
+        createPage({
+          path: pagePath,
+          component: path.resolve(`./src/templates/blog-post.js`),
+          context: { id: node.id, previous, next, permalink },
+        })
+      }
+      
 
       if (
         node.frontmatter &&

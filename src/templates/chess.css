@@ -1,0 +1,25 @@
+.chess-gif {
+  align: center;
+}
+
+.chess-game {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+}
+
+@media screen and (max-width: 768px) {
+  .chess-game {
+    width: 100%;
+  }
+}
+
+.chess-games {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
