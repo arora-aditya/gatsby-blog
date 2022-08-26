@@ -77,7 +77,7 @@ export default function PageTemplate({ data: { mdx, site, allGames }, pageContex
             {games.map(x => 
               <div key={x.id} className="chess-game">
                 <img className="chess-gif" alt={`chess game id: ${x.id}`} src={`https://lichess1.org/game/export/gif/${x.id}.gif`} />
-                <p><a href={`https://lichess.org/${x.id}`}>Link</a> to game that started as a {x.opening.name}, played {formatDaysAgo(new Date(x.createdAt), "en-CA")} at {new Date(x.createdAt).toLocaleTimeString("en-CA")} where
+                <p><a href={`https://lichess.org/${x.id}`}>Link</a> to game that started as a {x.opening?.name ? x.opening?.name : "unknown opening"}, played {formatDaysAgo(new Date(x.createdAt), "en-CA")} at {new Date(x.createdAt).toLocaleTimeString("en-CA")} where
                  I {x.status === "draw" ? "drew" : ("SwanJaguar" === x.players[x.winner].user.name ? "won" : "lost")}</p>
               </div>
             )}
