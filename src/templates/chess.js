@@ -33,7 +33,7 @@ export default function PageTemplate({ data: { mdx, site, allGames }, pageContex
       }
     });
 
-    xhr.open("GET", "https://lichess-proxy.herokuapp.com/");
+    xhr.open("GET", "https://backend.arora-aditya.com/");
 
     xhr.send();
   }, [])
