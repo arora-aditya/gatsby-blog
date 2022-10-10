@@ -15,6 +15,8 @@ const BooksIndexPage = ({ data: { allMdx } }) => (
     <SEO />
     <Section centered name="main-bio">
       <MainBio />
+      <p>Below are some of the books I've reviewed,</p>
+      <p>For a more complete list of books I've read, see <a href="https://arora-aditya.com/reading" target="_blank">here</a></p>
     </Section>
 
     {allMdx.nodes.map(post => {
@@ -59,6 +61,9 @@ export const query = graphql`
           },
           currently_reading: {
             in: [false, null] 
+          },
+          published: {
+          	eq: true
           }
         } 
       }
