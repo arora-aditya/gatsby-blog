@@ -1,5 +1,7 @@
 # Blog V2
 
+[![Build and Deploy](https://github.com/arora-aditya/gatsby-blog/actions/workflows/deploy-to-gh-pages.yml/badge.svg)](https://github.com/arora-aditya/gatsby-blog/actions/workflows/deploy-to-gh-pages.yml)
+
 Re-write of my [original blog](https://github.com/arora-aditya/blogs) but this time in Gatsby!
 
 The only reason for this shift is so that I am spared of writing HTML for each blog and can simply just write markdown!
