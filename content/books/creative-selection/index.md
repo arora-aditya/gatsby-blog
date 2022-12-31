@@ -3,7 +3,8 @@ title: "Creative Selection"
 author: "Ken Kocienda"
 date: '2022-01-01T15:22:29.625Z'
 published: false
-upcoming: true
+upcoming: false
+currently_reading: true
 categories:
   - Books
   - Non-fiction
