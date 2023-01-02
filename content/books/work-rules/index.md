@@ -2,8 +2,9 @@
 title: "Work Rules!"
 author: "Laszlo Bock"
 date: '2023-01-01T00:00:00.000Z'
-published: true
-upcoming: false
+published: false
+currently_reading: true
+upcoming: true
 categories:
   - Business & Economics
   - Books
