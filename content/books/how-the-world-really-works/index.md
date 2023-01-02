@@ -3,7 +3,8 @@ title: "How the World Really Works"
 author: "Vaclav Smil"
 date: '2022-09-01T15:22:29.625Z'
 published: false
-upcoming: true
+currently_reading: true
+upcoming: false
 categories:
   - Books
   - Non-fiction

@@ -16,7 +16,7 @@ const BooksIndexPage = ({ data: { allMdx } }) => (
     <Section centered name="main-bio">
       <MainBio />
       <p>Below are some of the books I've reviewed,</p>
-      <p>For a more complete list of books I've read, see <a href="https://arora-aditya.com/reading" target="_blank">here</a></p>
+      <p>For a more complete list of books I've read, want to read, or am currently reading see <a href="https://arora-aditya.com/reading" target="_blank" rel="noreferrer">here</a></p>
     </Section>
 
     {allMdx.nodes.map(post => {
