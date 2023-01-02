@@ -385,17 +385,6 @@
   Link: </component---src-templates-blog-post-js-82c0776d2e5578eec596.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/going-vegan-part-one/page-data.json>; rel=preload; as=fetch; crossorigin
-/books/cbt-made-simple/
-  Link: </webpack-runtime-d1a9cc72dd4c4b48e006.js>; rel=preload; as=script
-  Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
-  Link: </framework-6c3ead24af170cdcb87c.js>; rel=preload; as=script
-  Link: </app-5d0e9089312f558db50c.js>; rel=preload; as=script
-  Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
-  Link: </commons-135ced7d415c9b8ddcb0.js>; rel=preload; as=script
-  Link: </036705f007bbf471123ca12f3c94bfaabbdd31b6-680b54fd8a5071185b70.js>; rel=preload; as=script
-  Link: </component---src-templates-blog-post-js-82c0776d2e5578eec596.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/books/cbt-made-simple/page-data.json>; rel=preload; as=fetch; crossorigin
 /books/dune/
   Link: </webpack-runtime-d1a9cc72dd4c4b48e006.js>; rel=preload; as=script
   Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
