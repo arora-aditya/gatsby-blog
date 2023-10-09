@@ -2,7 +2,7 @@
 title: "Dinners with Ruth"
 author: "Nina Totenberg"
 date: '2023-10-01T00:00:00.000Z'
-published: false
+published: true
 upcoming: false
 categories:
   - Biography & Autobiography

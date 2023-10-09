@@ -2,7 +2,7 @@
 title: "Tomorrow, and Tomorrow, and Tomorrow"
 author: "Gabrielle Zevin"
 date: '2023-10-08T00:00:00.000Z'
-published: false
+published: true
 upcoming: false
 categories:
   - Fiction
