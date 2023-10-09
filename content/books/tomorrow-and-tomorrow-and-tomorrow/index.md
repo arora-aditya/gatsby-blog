@@ -1,0 +1,19 @@
+---
+title: "Tomorrow, and Tomorrow, and Tomorrow"
+author: "Gabrielle Zevin"
+date: '2023-10-08T00:00:00.000Z'
+published: false
+upcoming: true
+categories:
+  - Fiction
+  - Books
+  - Non-Fiction
+description: "Sam and Sadie—two college friends, often in love, but never lovers—become creative partners in a dazzling and intricately imagined world of video game design, where success brings them fame, joy, tragedy, duplicity, and, ultimately, a kind of immortality. It is a love story, but not one you have read before. On a bitter-cold day, in the December of his junior year at Harvard, Sam Masur exits a subway car and sees, amid the hordes of people waiting on the platform, Sadie Green. He calls her name. For a moment, she pretends she hasn’t heard him, but then, she turns, and a game begins: a legendary collaboration that will launch them to stardom. These friends, intimates since childhood, borrow money, beg favors, and, before even graduating college, they have created their first blockbuster, Ichigo. Overnight, the world is theirs. Not even twenty-five years old, Sam and Sadie are brilliant, successful, and rich, but these qualities won’t protect them from their own creative ambitions or the betrayals of their hearts. Spanning thirty years, from Cambridge, Massachusetts, to Venice Beach, California, and lands in between and far beyond, Gabrielle Zevin’s Tomorrow, and Tomorrow, and Tomorrow examines the multifarious nature of identity, disability, failure, the redemptive possibilities in play, and above all, our need to connect: to be loved and to love."
+---
+This book, has been on my "Want to read" list ever since I saw the cover of it in a bookstore last year, and it making its way to Bill Gates summer reading list of 2023 only solidified my urge to read this.
+
+It is hard for me though, to talk about fiction especially without summarizing the entire plot. What I will say is that this book perfectly itched the nerdy spot in my brain, that lives in the world of programming, technology, and wanting to build something from scratch and showing it off to the world. 
+
+I couldn't help but lso notice the similarities between this book, and the book "Normal People" by Sally Rooney, with a very similar will they won't they, truly test your patience friendship-but-maybe-romance kind of way. Loved the way Gabrielle Zevin, weaved the story from present to past, all the while keeping the reader in the loop, but also out of the loop about the inner thoughts and workings of each characters, their true feelings, motives and actions, and almost frustratingly so. The reader such as myself, cannot help but put the book down in frustration in some sections, to be able to digest a chapter or a scene having glimpses of each characters inner thoughts, but almost never the full story. Even the ending, leaves the reader to imagine the fate of the two protagonists. Books such as this make it very apparent to me why people read and write fan-fictions with existing characters outside of the original author's realms, especially since the world building is complete, and fan-fic writers can take their characters lives wherever their heart desires, and provide the original readers with a choose-your-own-ending to be able to get an extremely nice gift-wrapped bow-tied ending to their familiar characters.
+
+Personally, everytime I read fiction I am reminded of the ease that comes with reading fiction, and how easy it is to get engrossed in the lives of totally made up but believable characters, and how hard it can be to unwind the real world from fiction when the book finishes. More fiction incoming, especially ones as good as these.
